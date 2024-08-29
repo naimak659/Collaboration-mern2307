@@ -5,7 +5,7 @@ const data = [
       profession: "Web Developer",
       comment:
         "I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.",
-      star: 5,
+      star: 3,
     },
     {
       profession: "Web Developer",
@@ -19,7 +19,7 @@ const data = [
       author: "Eric Wu",
       comment:
         "I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.",
-      star: 5,
+      star: 6,
     },
   ],
   [
@@ -35,7 +35,7 @@ const data = [
       author: "Eric Wu",
       comment:
         "I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.",
-      star: 5,
+      star: 1,
     },
     {
       profession: "Web Developer",

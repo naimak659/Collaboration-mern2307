@@ -6,6 +6,7 @@ import {
   IoMdArrowDropleftCircle,
 } from "react-icons/io";
 import { PiQuotesBold } from "react-icons/pi";
+import StarRating from "./StarReview";
 
 function Carousel({ data }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -48,8 +49,11 @@ function Carousel({ data }) {
                           <div className="text-6xl w-fit rotate-180">
                             <PiQuotesBold />
                           </div>
-                          <p>{review.comment}</p>
-                          <p></p>
+                          <p className="text-secondary font-inter">
+                            {review.comment}
+                          </p>
+
+                          <StarRating stars={review.star} />
                         </div>
                         <div className="flex items-center">
                           <picture>
@@ -60,7 +64,7 @@ function Carousel({ data }) {
                             />
                           </picture>
                           <div className="flex gap-[2px] flex-col">
-                            <p>{review.author}</p>
+                            <p className="text-primary">{review.author}</p>
                             <p>{review.profession}</p>
                           </div>
                         </div>
