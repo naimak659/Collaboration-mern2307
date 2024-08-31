@@ -1,3 +1,5 @@
+/**====================Services Part start================= */
+
 import React from 'react'
 import one from "../../../assets/ServicesImg/one.png"
 import two from "../../../assets/ServicesImg/two.png"
@@ -87,3 +89,5 @@ const Services = () => {
 }
 
 export default Services
+
+/**====================Services Part end================= */
